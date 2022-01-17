@@ -1,0 +1,115 @@
+/* purgecss start ignore */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+/* purgecss end ignore */
+@import 'tailwindcss/utilities';
+@import '@fortawesome/fontawesome-free/css/all.css';
+
+/* Light */
+@font-face {
+  font-family: 'HankenSans';
+  font-display: swap;
+  font-weight: 300;
+  font-style: normal;
+  src: url('~assets/fonts/HankenSans-Light.eot'); /* IE9 Compat Modes */
+  src: url('~assets/fonts/HankenSans-Light.woff2') format('woff2'),
+    url('~assets/fonts/HankenSans-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'HankenSans';
+  font-display: swap;
+  font-weight: 300;
+  font-style: italic;
+  src: url('~assets/fonts/HankenSans-LightItalic.eot'); /* IE9 Compat Modes */
+  src: url('~assets/fonts/HankenSans-LightItalic.woff2') format('woff2'),
+    url('~assets/fonts/HankenSans-LightItalic.woff') format('woff');
+}
+
+/* Regular */
+@font-face {
+  font-family: 'HankenSans';
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+  src: url('~assets/fonts/HankenSans-Regular.eot'); /* IE9 Compat Modes */
+  src: url('~assets/fonts/HankenSans-Regular.woff2') format('woff2'),
+    url('~assets/fonts/HankenSans-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'HankenSans';
+  font-display: swap;
+  font-weight: 400;
+  font-style: italic;
+  src: url('~assets/fonts/HankenSans-Italic.eot'); /* IE9 Compat Modes */
+  src: url('~assets/fonts/HankenSans-Italic.woff2') format('woff2'),
+    url('~assets/fonts/HankenSans-Italic.woff') format('woff');
+}
+
+/* Medium */
+@font-face {
+  font-family: 'HankenSans';
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+  src: url('~assets/fonts/HankenSans-Medium.eot'); /* IE9 Compat Modes */
+  src: url('~assets/fonts/HankenSans-Medium.woff2') format('woff2'),
+    url('~assets/fonts/HankenSans-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'HankenSans';
+  font-display: swap;
+  font-weight: 500;
+  font-style: italic;
+  src: url('~assets/fonts/HankenSans-MediumItalic.eot'); /* IE9 Compat Modes */
+  src: url('~assets/fonts/HankenSans-MediumItalic.woff2') format('woff2'),
+    url('~assets/fonts/HankenSans-MediumItalic.woff') format('woff');
+}
+
+/* Bold */
+@font-face {
+  font-family: 'HankenSans';
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+  src: url('~assets/fonts/HankenSans-Bold.eot'); /* IE9 Compat Modes */
+  src: url('~assets/fonts/HankenSans-Bold.woff2') format('woff2'),
+    url('~assets/fonts/HankenSans-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'HankenSans';
+  font-weight: 700;
+  font-display: swap;
+  font-style: italic;
+  src: url('~assets/fonts/HankenSans-BoldItalic.eot'); /* IE9 Compat Modes */
+  src: url('~assets/fonts/HankenSans-BoldItalic.woff2') format('woff2'),
+    url('~assets/fonts/HankenSans-BoldItalic.woff') format('woff');
+}
+
+/* ExtraBold */
+@font-face {
+  font-family: 'HankenSans';
+  font-weight: 800;
+  font-display: swap;
+  font-style: normal;
+  src: url('~assets/fonts/HankenSans-ExtraBold.eot'); /* IE9 Compat Modes */
+  src: url('~assets/fonts/HankenSans-ExtraBold.woff2') format('woff2'),
+    url('~assets/fonts/HankenSans-ExtraBold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'HankenSans';
+  font-weight: 800;
+  font-display: swap;
+  font-style: italic;
+  src: url('~assets/fonts/HankenSans-ExtraBoldItalic.eot'); /* IE9 Compat Modes */
+  src: url('~assets/fonts/HankenSans-ExtraBoldItalic.woff2') format('woff2'),
+    url('~assets/fonts/HankenSans-ExtraBoldItalic.woff') format('woff');
+}
+
+html {
+  @apply t-font-sans;
+}

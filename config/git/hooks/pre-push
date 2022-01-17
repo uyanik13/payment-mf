@@ -1,0 +1,5 @@
+#!/bin/sh
+
+source $(pwd)/config/git/hooks/trufflehog
+
+exit 0

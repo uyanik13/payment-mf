@@ -1,0 +1,28 @@
+export default {
+  singlePayment: 'Einmalzahlung',
+  totalPayment: 'Gesamte Zahlung',
+  monthly: 'Monatlich',
+  installment: 'Raten',
+  thisFieldIsRequired: 'Dieses Feld ist erforderlich.',
+  cardNoIsIncorrect: 'Kartennummer ist falsch',
+  cvvIsIncorrect: 'CVV ist falsch',
+  cardOwnerName: 'Name auf der Karte*',
+  cardNumber: 'Kartennummer*',
+  expiryDate: 'Karte gültig bis',
+  month: 'Monat*',
+  year: 'Jahr*',
+  cvv: 'CVV*',
+  nameSurname: 'Vor-/Nachname',
+  monthYear: 'MM/JJ',
+  threeDSecure: 'Sichere 3D-Zahlung',
+  saveCreditCard: 'Kreditkarte speichern',
+  installmentOptions: 'Ratenzahlungsoptionen',
+  cardNickname: 'Name der Karte',
+  allBankOptions: 'Alle Bankoptionen anzeigen',
+  internalServerError:
+    'Leider konnten wir Ihre Zahlung nicht abschließen. Bitte versuchen Sie es später erneut.',
+  paypalFormText:
+    'Sie werden zu PayPal weitergeleitet, um Ihre Zahlung abzuschließen.',
+  fieldValueIncorrext: 'This field is incorrect',
+  creditAndDebitCard: 'Kredit-/Debitkarte',
+}

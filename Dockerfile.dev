@@ -1,0 +1,16 @@
+FROM registry.gitlab.com/modanisatech/docker-images/node:latest
+
+WORKDIR /app
+
+ADD package.json .
+ADD yarn.lock .
+
+RUN yarn install
+COPY . .
+
+ENV NUXT_HOST="localhost"
+ENV NUXT_PORT=3000
+
+
+EXPOSE 3000
+CMD [ "yarn", "dev" ]

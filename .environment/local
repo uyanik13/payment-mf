@@ -1,0 +1,4 @@
+API_BASE_URL=http://marketplace-payment-api-staging.modanisa.net
+API_V2_BASE_URL=https://marketplace-payment-api-v2-staging.modanisa.net
+LEGACY_API_BASE_URL=https://marketplace-api-test.modanisatest.com
+ENV=dev

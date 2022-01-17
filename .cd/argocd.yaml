@@ -1,0 +1,15 @@
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: ${DEPLOY_ENV}-payment-mf
+  namespace: argocd
+spec:
+  destination:
+    namespace: payment-mf
+    server: ${CLUSTER_URL}
+  project: default
+  source:
+    repoURL: https://gitlab.com/modanisatech/marketplace/deployment-artifacts.git
+    path: payment-mf/${DEPLOY_ENV}
+    targetRevision: master

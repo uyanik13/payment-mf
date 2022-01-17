@@ -1,0 +1,3 @@
+---
+creation_rules:
+  - kms: ${KMS_ARN_PRODUCTION}

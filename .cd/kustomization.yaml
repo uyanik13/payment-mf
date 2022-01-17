@@ -1,0 +1,12 @@
+generators:
+  - ./secret-generator.yaml
+
+resources:
+  - ./configmap.yaml
+  - ./deployment.yaml
+  - ./destinationrule.yaml
+  - ./gateway.yaml
+  - ./hpa.yaml
+  - ./service.yaml
+  - ./serviceaccount.yaml
+  - ./virtualservice.yaml

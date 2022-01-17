@@ -1,0 +1,15 @@
+#!/bin/sh
+
+# note: exit code of last run process can be accesses via $?
+
+docker run --name trufflehog --rm -v $(pwd)/:/proj registry.gitlab.com/modanisatech/marketplace/trufflehog:latest --regex --entropy=False . > $(pwd)/trufflehog.log
+truffleresult="`cat trufflehog.log`"
+docker rm trufflehog > /dev/null
+
+if [ -z "$truffleresult" ]
+then
+    echo >&1 "truffleHog check success."
+else
+    echo >&2 "truffleHog found some issues. They are loged into file: $(pwd)/trufflehog.log"
+	exit 1
+fi

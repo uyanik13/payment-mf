@@ -1,0 +1,192 @@
+.v-application {
+  font-family: HankenSans, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji' !important;
+}
+
+.v-text-field--outlined.v-input--dense .v-label {
+  top: 12px !important;
+}
+
+.v-list-item__content {
+  padding: 0 16px !important;
+}
+
+.v-text-field--filled.v-input--dense.v-text-field--single-line
+  > .v-input__control
+  > .v-input__slot,
+.v-text-field--filled.v-input--dense.v-text-field--outlined
+  > .v-input__control
+  > .v-input__slot,
+.v-text-field--filled.v-input--dense.v-text-field--outlined.v-text-field--filled
+  > .v-input__control
+  > .v-input__slot,
+.v-text-field--full-width.v-input--dense.v-text-field--single-line
+  > .v-input__control
+  > .v-input__slot,
+.v-text-field--full-width.v-input--dense.v-text-field--outlined
+  > .v-input__control
+  > .v-input__slot,
+.v-text-field--full-width.v-input--dense.v-text-field--outlined.v-text-field--filled
+  > .v-input__control
+  > .v-input__slot,
+.v-text-field--outlined.v-input--dense.v-text-field--single-line
+  > .v-input__control
+  > .v-input__slot,
+.v-text-field--outlined.v-input--dense.v-text-field--outlined
+  > .v-input__control
+  > .v-input__slot,
+.v-text-field--outlined.v-input--dense.v-text-field--outlined.v-text-field--filled
+  > .v-input__control
+  > .v-input__slot {
+  min-height: 44px !important;
+}
+
+.card-form-container .v-text-field--outlined fieldset {
+  border-radius: 5px;
+  border: solid 2px #d2d2d2;
+}
+
+.card-form-container .v-text-field--outlined.error--text fieldset {
+  border: solid 2px #f61a55;
+}
+
+.card-form-container .v-text-field--outlined.v-input--is-focused fieldset {
+  border-color: #222;
+}
+
+.card-form-container
+  .v-text-field--outlined.v-input--is-focused.error--text
+  fieldset {
+  border: solid 2px #f61a55;
+}
+
+.v-text-field__slot .theme--light.v-label,
+.v-select .theme--light.v-label {
+  color: #999;
+  caret-color: #999 !important;
+}
+
+.v-input--checkbox label.theme--light.v-label {
+  color: #000 !important;
+}
+
+.v-input--checkbox .theme--light.v-icon {
+  color: #d2d2d2;
+}
+
+.chevron-down i {
+  font-size: 14px !important;
+  margin-top: 0.5em !important;
+  margin-left: 1em !important;
+  color: #d2d2d2;
+}
+
+.card-form-container .v-input--checkbox .v-input--selection-controls__input {
+  width: 20px;
+  height: 20px;
+}
+
+.card-form-container .v-input--selection-controls__ripple {
+  left: -14px;
+}
+
+.v-input--radio-group > .v-input__control > .v-input__slot {
+  margin-bottom: 0;
+}
+
+.v-text-field.v-text-field--enclosed .v-text-field__details {
+  margin-bottom: 0 !important;
+}
+
+.v-text-field.v-text-field--enclosed .v-text-field__details {
+  padding: 0 !important;
+}
+
+.jp-card * {
+  font-family: HankenSans, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji' !important;
+}
+
+.jp-card .jp-card-front .jp-card-lower .jp-card-number {
+  font-size: 22px !important;
+}
+
+.jp-card .jp-card-front .jp-card-lower .jp-card-name,
+.jp-card .jp-card-front .jp-card-lower .jp-card-expiry {
+  font-size: 16px !important;
+}
+
+.jp-card-front,
+.jp-card-back,
+.jp-card-identified {
+  -webkit-box-shadow: 0px 2px 3px 0px rgb(0 0 0 / 20%) !important;
+  -moz-box-shadow: 0px 2px 3px 0px rgb(0 0 0 / 20%) !important;
+  box-shadow: 0px 2px 3px 0px rgb(0 0 0 / 20%) !important;
+  border: solid 1px #eaeaea;
+}
+
+.jp-card.jp-card-identified .jp-card-front:before {
+  background-color: #fff !important;
+  background-image: unset !important;
+}
+
+.jp-card.jp-card-identified .jp-card-back:before {
+  background-color: #eaeaea !important;
+  background-image: unset !important;
+}
+.jp-card.jp-card-visa.jp-card-identified .jp-card-logo.jp-card-visa {
+  color: #001585;
+}
+
+.jp-card.jp-card-troy.jp-card-identified .jp-card-logo.jp-card-troy {
+  color: #000;
+}
+
+.jp-card.jp-card-diners-club.jp-card-identified
+  .jp-card-logo.jp-card-dinersclub {
+  color: #000;
+}
+
+.jp-card.jp-card-mastercard.jp-card-identified
+  .jp-card-logo.jp-card-mastercard {
+  color: #231f20;
+  text-shadow: none !important;
+}
+
+.jp-card-logo.jp-card-visa:before {
+  border-color: transparent #001585 transparent transparent !important;
+  left: -2px !important;
+  top: 1.5px !important;
+}
+.jp-card-logo.jp-card-maestro {
+  color: #000 !important;
+  text-shadow: none !important;
+}
+
+.jp-card .jp-card-back .jp-card-bar {
+  background-color: #cbcbcb !important;
+  background-image: unset !important;
+}
+
+.jp-card .jp-card-back .jp-card-display,
+.jp-card .jp-card-front .jp-card-display {
+  color: #000000 !important;
+}
+
+.jp-card .jp-card-back,
+.jp-card .jp-card-front {
+  background: #ffffff !important;
+}
+
+.jp-card-container {
+  margin: -23px auto !important;
+}
+
+.jp-card .jp-card-front .jp-card-lower .jp-card-expiry:before,
+.jp-card .jp-card-front .jp-card-lower .jp-card-expiry:after {
+  display: none !important;
+}

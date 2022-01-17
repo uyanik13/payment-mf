@@ -1,0 +1,33 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: payment-mf
+  labels:
+    app: payment-mf
+spec:
+  selector:
+    matchLabels:
+      app: payment-mf
+  template:
+    metadata:
+      labels:
+        app: payment-mf
+    spec:
+      containers:
+        - name: payment-mf
+          image: payment-mf-image
+          ports:
+            - containerPort: 3000
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: payment-mf
+spec:
+  selector:
+    app: payment-mf
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 3000

@@ -1,0 +1,14 @@
+---
+include:
+  - file:
+      - deployment/marketplace/frontend.gitlab-ci.yaml
+      - deployment/marketplace/pact-consumer.gitlab-ci.yaml
+    project: modanisatech/gitlab-ci-templates
+    ref: master
+
+variables:
+  ACCEPTANCE_APP_URL: http://marketplace-payment-mf-staging.modanisa.net
+  APP_NAME: payment-mf
+  BASE_IMAGE_NAME: registry.gitlab.com/modanisatech/docker-images/node:latest
+  CONSUMER_NAME: payment-mf
+  REGRESSION_TEST_API_TAG: '@payment-mf'

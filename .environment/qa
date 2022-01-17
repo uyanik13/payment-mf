@@ -1,0 +1,5 @@
+API_BASE_URL=https://marketplace-payment-api-qa.modanisa.net
+API_V2_BASE_URL=https://marketplace-payment-api-v2-qa.modanisa.net
+LEGACY_API_BASE_URL=https://marketplace-qa-api-test.modanisatest.com
+PUBLIC_PATH="https://marketplace-payment-mf-qa.modanisa.net/_nuxt"
+ENV=qa

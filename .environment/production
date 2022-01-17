@@ -1,0 +1,5 @@
+API_BASE_URL=https://payment-api.modanisa.com
+API_V2_BASE_URL=https://payment-api-v2.modanisa.com
+LEGACY_API_BASE_URL=https://api1.modanisa.com/
+PUBLIC_PATH="https://payment-mf.modanisa.com/_nuxt"
+ENV=production

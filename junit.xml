@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="21" failures="0" errors="0" time="8.074">
+  <testsuite name="Card form component test" errors="0" failures="0" skipped="0" timestamp="2021-12-23T11:59:23" time="0.836" tests="5">
+    <testcase classname="Card form component test Given card number without spaces Then it should return the formatted card number with 4 digits and space" name="Card form component test Given card number without spaces Then it should return the formatted card number with 4 digits and space" time="0.003">
+    </testcase>
+    <testcase classname="Card form component test Given a card number with less than or equal to 4 digits Then it should return the card number as it is" name="Card form component test Given a card number with less than or equal to 4 digits Then it should return the card number as it is" time="0">
+    </testcase>
+    <testcase classname="Card form component test Given a card number with more than 16 digits Then it should ignore the extra digits" name="Card form component test Given a card number with more than 16 digits Then it should ignore the extra digits" time="0">
+    </testcase>
+    <testcase classname="Card form component test Given a card number with 10 digits Then it should return 3 set of numbers" name="Card form component test Given a card number with 10 digits Then it should return 3 set of numbers" time="0.001">
+    </testcase>
+    <testcase classname="Card form component test Given a card number with non numeric characters Then it should ignore the non numeric characters" name="Card form component test Given a card number with non numeric characters Then it should ignore the non numeric characters" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="mutations" errors="0" failures="0" skipped="0" timestamp="2021-12-23T11:59:23" time="1.36" tests="2">
+    <testcase classname="mutations getPaymentOptionsSuccess" name="mutations getPaymentOptionsSuccess" time="0.003">
+    </testcase>
+    <testcase classname="mutations updateSelectedPaymentOption" name="mutations updateSelectedPaymentOption" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="Installment Options component test" errors="0" failures="0" skipped="0" timestamp="2021-12-23T11:59:23" time="2.914" tests="4">
+    <testcase classname="Installment Options component test Installment options component should be rendered for multiple installments" name="Installment Options component test Installment options component should be rendered for multiple installments" time="0.096">
+    </testcase>
+    <testcase classname="Installment Options component test Installment options component should be rendered for single installment" name="Installment Options component test Installment options component should be rendered for single installment" time="0.051">
+    </testcase>
+    <testcase classname="Installment Options component test Installment options component should be rendered for no installment" name="Installment Options component test Installment options component should be rendered for no installment" time="0.032">
+    </testcase>
+    <testcase classname="Installment Options component test Installments must loaded from store" name="Installment Options component test Installments must loaded from store" time="0.025">
+    </testcase>
+  </testsuite>
+  <testsuite name="Card form component test" errors="0" failures="0" skipped="6" timestamp="2021-12-23T11:59:23" time="3.165" tests="10">
+    <testcase classname="Card form component test Given Card Form With Country Turkey When card form loads Then should show all form fields" name="Card form component test Given Card Form With Country Turkey When card form loads Then should show all form fields" time="0.183">
+    </testcase>
+    <testcase classname="Card form component test Given Card Form With Country Turkey When card form loads Then Save my card information should prechecked" name="Card form component test Given Card Form With Country Turkey When card form loads Then Save my card information should prechecked" time="0.091">
+    </testcase>
+    <testcase classname="Card form component test Given Card Form With Country Turkey When Save my card information unmarked Then Card Nick Name should not be appear" name="Card form component test Given Card Form With Country Turkey When Save my card information unmarked Then Card Nick Name should not be appear" time="0.099">
+    </testcase>
+    <testcase classname="Card form component test Given Card Form With Country Turkey When Save my card information marked Then Card Nick Name should be appear" name="Card form component test Given Card Form With Country Turkey When Save my card information marked Then Card Nick Name should be appear" time="0.063">
+    </testcase>
+    <testcase classname="Card form component test Given Card Form With Country Turkey When card number filled Then Installment Options will change" name="Card form component test Given Card Form With Country Turkey When card number filled Then Installment Options will change" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="Card form component test When card month changed Then card ui will be effected" name="Card form component test When card month changed Then card ui will be effected" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="Card form component test When card year changed Then card ui will be effected" name="Card form component test When card year changed Then card ui will be effected" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="Card form component test When card month and year changed Then card ui will be effected" name="Card form component test When card month and year changed Then card ui will be effected" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="Card form component test When amex card filled to card number Then required cvv length need to be 4" name="Card form component test When amex card filled to card number Then required cvv length need to be 4" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="Card form component test When cvv number filled Then cvv validation rules will be return array" name="Card form component test When cvv number filled Then cvv validation rules will be return array" time="0">
+      <skipped/>
+    </testcase>
+  </testsuite>
+</testsuites>
